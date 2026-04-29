@@ -2927,5 +2927,5 @@ This table provides an overview of the core technical features based on the code
 
 ## 🚀 Demo
 
-[![Video Title](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID](https://youtu.be/Mm-soWWjgCQ))
+[![YouTube Video](https://img.youtube.com/vi/Mm-soWWjgCQ/maxresdefault.jpg)](https://youtu.be/Mm-soWWjgCQ)
 ---
