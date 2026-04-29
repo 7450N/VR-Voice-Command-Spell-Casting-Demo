@@ -10,16 +10,14 @@
 
 <!-- BADGES -->
 <img src="https://img.shields.io/github/last-commit/7450N/VR-Voice-Command-Spell-Casting-Demo?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-<img src="https://img.shields.io/github/languages/top/7450N/VR-Voice-Command-Spell-Casting-Demo?style=flat&color=0080ff" alt="repo-top-language">
+<img src="https://img.shields.io/badge/Language-C%23-0080ff?style=flat&logo=csharp&logoColor=white" alt="repo-2nd-language">
 <img src="https://img.shields.io/github/languages/count/7450N/VR-Voice-Command-Spell-Casting-Demo?style=flat&color=0080ff" alt="repo-language-count">
 
 <em>Built with the tools and technologies:</em>
 
-<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
-<img src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=Markdown&logoColor=white" alt="Markdown">
+
 <img src="https://img.shields.io/badge/Unity-FFFFFF.svg?style=flat&logo=Unity&logoColor=black" alt="Unity">
-<img src="https://img.shields.io/badge/XML-005FAD.svg?style=flat&logo=XML&logoColor=white" alt="XML">
-<img src="https://img.shields.io/badge/TGA-0014FF.svg?style=flat&logo=TGA&logoColor=white" alt="TGA">
+
 
 </div>
 <br>
