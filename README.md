@@ -43,7 +43,7 @@
 
 ## ✨ Overview
 
-VR-Voice-Command-Spell-Casting-Demo is an innovative project demonstrating how voice recognition can transform immersive VR experiences by enabling hands-free spell casting within a virtual environment. It seamlessly combines voice interaction, scene optimization, and rich environmental assets to create engaging and responsive magic mechanics.
+VR-Voice-Command-Spell-Casting-Demo is an innovative project demonstrating how voice recognition can transform immersive VR experiences by enabling hands-free spell casting within a virtual environment. It seamlessly combines voice interaction and XR features to create engaging and responsive magic mechanics. All the spells are inspired by Harry Potter.
 
 **Why VR-Voice-Command-Spell-Casting-Demo?**
 
@@ -51,7 +51,7 @@ This project aims to showcase the potential of integrating voice commands with V
 
 - 🧙️ **Voice-Driven Spell Casting:** Enables natural, hands-free magic interactions through voice commands.
 - 🎯 **Scene Optimization:** Utilizes occlusion culling and lighting settings for smooth, high-fidelity performance.
-- 🛠️ **Modular Asset Architecture:** Offers reusable models, prefabs, and shaders for flexible environment design.
+- 🛠️ **Modular Asset Architecture:** Offers reusable models, prefabs, and shaders for flexible environment design for optimization
 - ✨ **Visual & Audio Effects:** Enhances immersion with dynamic visual effects, animations, and UI feedback.
 - 🔧 **Robust Dependency Management:** Ensures stability and reproducibility with precise package locking and configuration.
 
@@ -59,23 +59,19 @@ This project aims to showcase the potential of integrating voice commands with V
 
 ## 📌 Features
 
-| Feature Category             | Description                                                                                     |
-|------------------------------|-------------------------------------------------------------------------------------------------|
-| **Programming Language**     | Unity C# (implied by Unity asset references and typical VR development practices)             |
-| **VR Hardware Support**      | Compatible with major VR platforms (e.g., Oculus, HTC Vive, Valve Index) via Unity XR Toolkit  |
-| **Voice Command Integration**| Implements voice recognition to trigger spell-casting actions                                |
-| **Spell Casting Mechanics**  | Uses gesture recognition and voice commands to cast various spells                            |
-| **3D Asset Usage**           | Extensive use of prefabs and models such as torches, trees, props, and environment assets     |
-| **Prefabs & Models**         | Includes interactive objects (e.g., wooden chests, torches, trees, fences) and environment props |
-| **Shaders & Visual Effects** | Custom shaders like `unlit_fresnel.shadergraph` and `tunnelingvignette.shadergraph` for visual effects |
-| **Interaction System**       | Utilizes interaction affordances, teleport anchors, and teleport reticles for navigation   |
+| Feature Category             | Description                                                                                     	   	  |
+|------------------------------|----------------------------------------------------------------------------------------------------------|
+| **Programming Language**     | Unity C#         																						  |
+| **VR Hardware Support**      | Compatible with Meta Quest 																	 		  |
+| **Voice Command Integration**| Implements voice recognition using wit.ai to trigger spell-casting actions                     		  |
+| **Spell Casting Mechanics**  | Uses voice commands to cast various spells  						                            		  |
+| **Interaction System**       | Utilizes interaction affordances, teleport anchors, and teleport reticles for navigation       		  |
 | **Input Management**         | Supports XR input presets (`xri default left controller inputactionmanager.preset`) and UI input modules |
-| **Lighting & Environment**   | Includes lighting settings (`demo_1settings.lighting`) and ambience FX prefabs for immersive atmosphere |
-| **Animation & Effects**      | Uses animation clips (e.g., `close.anim`) and particle effects (e.g., confetti, candle flames) |
-| **Scene Management**         | Scene setup with Unity scene files (`demoscene.unity`) and lighting configurations             |
-| **Interaction & Feedback**   | Implements interaction affordances, reticles, and controller input for immersive feedback   |
-| **Asset Organization**         | Well-structured with prefabs, FBX models, shaders, and scripts for modularity and reuse     |
-| **Additional Features**        | Includes dummy objects (training dummy), destructible props, and environmental props for demonstration |
+| **Lighting & Environment**   | Includes lighting settings and ambience FX prefabs for immersive atmosphere							  |
+| **Animation & Effects**      | Uses animation clips and particle effects         														  |
+| **Interaction & Feedback**   | Implements interaction affordances, reticles, and controller vibration for immersive feedback   		  |
+| **Asset Organization**       | Well-structured with prefabs, FBX models, shaders, and scripts for modularity and reuse    			  |
+| **Additional Features**      | Includes dummy objects (training dummy), destructible props, and environmental props for demonstration   |
 
 ---
 
@@ -84,42 +80,7 @@ This table provides an overview of the core technical features based on the code
 ---
 
 ## 📁 Project Structure
-
-```sh
-└── VR-Voice-Command-Spell-Casting-Demo/
-    ├── Assets
-    │   ├── Asset Store
-    │   ├── Asset Store.meta
-    │   ├── InputSystem_Actions.inputactions
-    │   ├── InputSystem_Actions.inputactions.meta
-    │   ├── Oculus
-    │   ├── Oculus.meta
-    │   ├── Plugins
-    │   ├── Plugins.meta
-    │   ├── Readme.asset
-    │   ├── Readme.asset.meta
-    │   ├── Resources
-    │   ├── Resources.meta
-    │   ├── Samples
-    │   ├── Samples.meta
-    │   ├── Settings
-    │   ├── Settings.meta
-    │   ├── SmallBigSquare
-    │   ├── SmallBigSquare.meta
-    │   ├── TutorialInfo
-    │   ├── TutorialInfo.meta
-    │   ├── XR
-    │   ├── XR.meta
-    │   ├── XRI
-    │   └── XRI.meta
-    ├── Packages
-    │   ├── manifest.json
-    │   └── packages-lock.json
-    └── README.md
-```
-
 ---
-
 ### 📑 Project Index
 
 <details open>
@@ -2964,52 +2925,7 @@ This table provides an overview of the core technical features based on the code
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Demo
 
-### 📋 Prerequisites
-
-This project requires the following dependencies:
-
-- **Programming Language:** unknown
-
-### ⚙️ Installation
-
-Build VR-Voice-Command-Spell-Casting-Demo from the source and install dependencies:
-
-1. **Clone the repository:**
-
-    ```sh
-    ❯ git clone https://github.com/7450N/VR-Voice-Command-Spell-Casting-Demo
-    ```
-
-2. **Navigate to the project directory:**
-
-    ```sh
-    ❯ cd VR-Voice-Command-Spell-Casting-Demo
-    ```
-
-3. **Install the dependencies:**
-
-echo 'INSERT-INSTALL-COMMAND-HERE'
-
-### 💻 Usage
-
-Run the project with:
-
-echo 'INSERT-RUN-COMMAND-HERE'
-
-### 🧪 Testing
-
-Vr-voice-command-spell-casting-demo uses the {__test_framework__} test framework. Run the test suite with:
-
-echo 'INSERT-TEST-COMMAND-HERE'
-
----
-
-## ✨ Acknowledgments
-
-- Credit `contributors`, `inspiration`, `references`, etc.
-
-<div align="left"><a href="#top">⬆ Return</a></div>
-
+[![Video Title](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID](https://youtu.be/Mm-soWWjgCQ))
 ---
