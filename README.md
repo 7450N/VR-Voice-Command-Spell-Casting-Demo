@@ -29,16 +29,9 @@
 ## 📄 Table of Contents
 
 - [Overview](#-overview)
-- [Getting Started](#-getting-started)
-    - [Prerequisites](#-prerequisites)
-    - [Installation](#-installation)
-    - [Usage](#-usage)
-    - [Testing](#-testing)
+- [Demo](#-demo)
 - [Features](#-features)
 - [Project Structure](#-project-structure)
-    - [Project Index](#-project-index)
-- [Acknowledgment](#-acknowledgment)
-
 ---
 
 ## ✨ Overview
@@ -80,8 +73,6 @@ This table provides an overview of the core technical features based on the code
 ---
 
 ## 📁 Project Structure
----
-### 📑 Project Index
 
 <details open>
 	<summary><b><code>VR-VOICE-COMMAND-SPELL-CASTING-DEMO/</code></b></summary>
