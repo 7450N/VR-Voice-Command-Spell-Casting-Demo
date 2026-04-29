@@ -11,7 +11,7 @@
 <!-- BADGES -->
 <img src="https://img.shields.io/github/last-commit/7450N/VR-Voice-Command-Spell-Casting-Demo?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 <img src="https://img.shields.io/badge/Language-C%23-0080ff?style=flat&logo=csharp&logoColor=white" alt="repo-2nd-language">
-<img src="https://img.shields.io/github/languages/count/7450N/VR-Voice-Command-Spell-Casting-Demo?style=flat&color=0080ff" alt="repo-language-count">
+
 
 <em>Built with the tools and technologies:</em>
 
